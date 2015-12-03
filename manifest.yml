@@ -1,0 +1,4 @@
+---
+applications:
+- name: Sevilla-R-live
+  command: node app/server.js
