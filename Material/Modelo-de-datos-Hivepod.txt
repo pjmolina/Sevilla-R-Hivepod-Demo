@@ -1,0 +1,43 @@
+class OlympicMedal
+{
+	string Athlete;
+	int Age;
+	string Country;
+	int Year;
+	string Sport;
+	int Gold;
+	int Silver;
+	int Bronze;
+	int Total;
+}
+class Oficina
+{
+	string Nombre;
+	geopoint Localizacion;
+	string Telefono;
+	image? Imagen;
+}
+class Weather
+{
+	string Location;
+	int Year;
+	int Month;
+	int Day;
+	time Time;
+	decimal Temperature;
+	int RelHum;
+	decimal Presure;
+	int? Hmdx;
+}
+class Exoplanet
+{
+	string Name;
+	decimal? Msini;
+	decimal? SemiMajorAxis;
+	decimal? OrbitalPeriod;
+	decimal? OrbitalExcentricity;
+	int? Om;
+	decimal? Velocity;
+	string? OrbitRef;
+	string FirstRef;
+}
